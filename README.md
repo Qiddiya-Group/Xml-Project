@@ -35,5 +35,6 @@
 
 
 #### Clean Code  :
+[![BCH compliance](https://bettercodehub.com/edge/badge/Qiddiya-Group/Xml-Project?branch=main)](https://bettercodehub.com/)
 
 
