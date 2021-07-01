@@ -1,0 +1,16 @@
+C:\Users\moham\Desktop\XMLproject\Xml-Project\bin\Debug\net5.0\Xml-Project.exe
+C:\Users\moham\Desktop\XMLproject\Xml-Project\bin\Debug\net5.0\Xml-Project.deps.json
+C:\Users\moham\Desktop\XMLproject\Xml-Project\bin\Debug\net5.0\Xml-Project.runtimeconfig.json
+C:\Users\moham\Desktop\XMLproject\Xml-Project\bin\Debug\net5.0\Xml-Project.runtimeconfig.dev.json
+C:\Users\moham\Desktop\XMLproject\Xml-Project\bin\Debug\net5.0\Xml-Project.dll
+C:\Users\moham\Desktop\XMLproject\Xml-Project\bin\Debug\net5.0\ref\Xml-Project.dll
+C:\Users\moham\Desktop\XMLproject\Xml-Project\bin\Debug\net5.0\Xml-Project.pdb
+C:\Users\moham\Desktop\XMLproject\Xml-Project\obj\Debug\net5.0\Xml-Project.csprojAssemblyReference.cache
+C:\Users\moham\Desktop\XMLproject\Xml-Project\obj\Debug\net5.0\Xml-Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moham\Desktop\XMLproject\Xml-Project\obj\Debug\net5.0\Xml-Project.AssemblyInfoInputs.cache
+C:\Users\moham\Desktop\XMLproject\Xml-Project\obj\Debug\net5.0\Xml-Project.AssemblyInfo.cs
+C:\Users\moham\Desktop\XMLproject\Xml-Project\obj\Debug\net5.0\Xml-Project.csproj.CoreCompileInputs.cache
+C:\Users\moham\Desktop\XMLproject\Xml-Project\obj\Debug\net5.0\Xml-Project.dll
+C:\Users\moham\Desktop\XMLproject\Xml-Project\obj\Debug\net5.0\ref\Xml-Project.dll
+C:\Users\moham\Desktop\XMLproject\Xml-Project\obj\Debug\net5.0\Xml-Project.pdb
+C:\Users\moham\Desktop\XMLproject\Xml-Project\obj\Debug\net5.0\Xml-Project.genruntimeconfig.cache
