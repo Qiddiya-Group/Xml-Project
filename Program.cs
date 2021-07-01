@@ -1,7 +1,12 @@
 ﻿
 using System;
+<<<<<<< HEAD
 using System.Threading;
 using System.Xml;
+=======
+using System.Xml;
+
+>>>>>>> 11788a0 (Read Xml file Function)
 
 namespace Xml_Project
 {
@@ -38,17 +43,41 @@ namespace Xml_Project
             element5.AppendChild(Text5);
 
 
+<<<<<<< HEAD
             xmldoc.Save(@"C:\Users\moham\Desktop\XMLproject\project.xml");
 
+=======
+            xmldoc.Save(@"C:/Users/hiro1/Desktop/project.xml");
+            Console.WriteLine(xmldoc.InnerXml);
+>>>>>>> 11788a0 (Read Xml file Function)
 
+        }
+        static void ReadXmlFile() {
+            XmlDocument xmldoc = new XmlDocument();
+            xmldoc.Load(@"C:/Users/hiro1/Desktop/project.xml");
+            foreach (XmlNode node in xmldoc.DocumentElement.ChildNodes)
+            {
+                string element = node.Name;
+                Console.WriteLine(element+":");
+                string text = node.InnerText;
+                Console.WriteLine(text);
+
+            }
         }
         static void Main(string[] args)
         {
+<<<<<<< HEAD
 
             Thread writeThread = new Thread(WriteXMLFile);
 
             writeThread.Start();
             
+=======
+            WriteXMLFile();
+            ReadXmlFile();
+
+
+>>>>>>> 11788a0 (Read Xml file Function)
         }
     }
 }
