@@ -31,24 +31,28 @@ namespace Xml_Project
             element3.AppendChild(element4);
             element4.AppendChild(Text4);
 
-
-            XmlElement element5 = xmldoc.CreateElement("conclusion");
-            XmlText Text5 = xmldoc.CreateTextNode("Best Regards,");
+            XmlElement element5 = xmldoc.CreateElement("Members");
+            XmlText Text5 = xmldoc.CreateTextNode("\n Shahad Alshehri: Computer Science ,\n Albandry AlQaseemi: Computer Science ,\n Rahaf Alqhtani :Information System ,\n Mohammed Albalawi: Computer Science ,\n Saud Alshammari: Management Information System.\n ");
             element3.AppendChild(element5);
             element5.AppendChild(Text5);
 
+            XmlElement element6 = xmldoc.CreateElement("conclusion");
+            XmlText Text6 = xmldoc.CreateTextNode("Best Regards,");
+            element3.AppendChild(element6);
+            element6.AppendChild(Text6);
 
-            xmldoc.Save(@"C:\Users\Pivot85\Desktop\New folder\project.xml");
-            Console.WriteLine(xmldoc.InnerXml);
+
+            xmldoc.Save(@"C:\program\project.xml");
+            Console.WriteLine("Created Successfully!");
 
         }
         static void ReadXmlFile() {
             XmlDocument xmldoc = new XmlDocument();
-            xmldoc.Load(@"C:\Users\Pivot85\Desktop\New folder\project.xml");
+            xmldoc.Load(@"C:\program\project.xml");
             foreach (XmlNode node in xmldoc.DocumentElement.ChildNodes)
             {
                 string element = node.Name;
-                Console.WriteLine(element+":");
+                Console.Write(element+": ");
                 string text = node.InnerText;
                 Console.WriteLine(text);
 

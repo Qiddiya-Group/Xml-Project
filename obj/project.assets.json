@@ -8,20 +8,25 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Pivot85\\.nuget\\packages\\": {}
+    "C:\\Users\\Shaha\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pivot85\\Desktop\\New folder\\Xml-Project\\Xml-Project.csproj",
+      "projectUniqueName": "C:\\Xml-Project\\Xml-Project.csproj",
       "projectName": "Xml-Project",
-      "projectPath": "C:\\Users\\Pivot85\\Desktop\\New folder\\Xml-Project\\Xml-Project.csproj",
-      "packagesPath": "C:\\Users\\Pivot85\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pivot85\\Desktop\\New folder\\Xml-Project\\obj\\",
+      "projectPath": "C:\\Xml-Project\\Xml-Project.csproj",
+      "packagesPath": "C:\\Users\\Shaha\\.nuget\\packages\\",
+      "outputPath": "C:\\Xml-Project\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Pivot85\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Shaha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -60,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
