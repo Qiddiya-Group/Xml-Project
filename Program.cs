@@ -38,13 +38,13 @@ namespace Xml_Project
             element5.AppendChild(Text5);
 
 
-            xmldoc.Save(@"C:/Users/hiro1/Desktop/project.xml");
+            xmldoc.Save(@"C:\Users\Pivot85\Desktop\New folder\project.xml");
             Console.WriteLine(xmldoc.InnerXml);
 
         }
         static void ReadXmlFile() {
             XmlDocument xmldoc = new XmlDocument();
-            xmldoc.Load(@"C:/Users/hiro1/Desktop/project.xml");
+            xmldoc.Load(@"C:\Users\Pivot85\Desktop\New folder\project.xml");
             foreach (XmlNode node in xmldoc.DocumentElement.ChildNodes)
             {
                 string element = node.Name;
@@ -58,11 +58,11 @@ namespace Xml_Project
         {
 
             Thread writeThread = new Thread(WriteXMLFile);
-
             writeThread.Start();
-         
-            ReadXmlFile();
-
+            writeThread.Join();
+            
+            Thread ReadThread = new Thread(ReadXmlFile);
+            ReadThread.Start();
 
         }
     }
