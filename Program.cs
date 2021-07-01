@@ -1,5 +1,7 @@
 ﻿
 using System;
+using System.Threading;
+using System.Xml;
 
 namespace Xml_Project
 {
@@ -36,14 +38,18 @@ namespace Xml_Project
             element5.AppendChild(Text5);
 
 
-            xmldoc.Save(@"/Users/Alban/Documents/New folder/project.xml");
-            Console.WriteLine(xmldoc.InnerXml);
+            xmldoc.Save(@"C:\Users\moham\Desktop\XMLproject\project.xml");
+
 
         }
         static void Main(string[] args)
         {
-            WriteXMLFile();
+
+            Thread writeThread = new Thread(WriteXMLFile);
+
+            writeThread.Start();
+            
         }
     }
 }
-}
+
