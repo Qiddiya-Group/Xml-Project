@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\moham\Desktop\XMLproject\Xml-Project\bin\Debug\net5.0\Xml-Project.exe
 C:\Users\moham\Desktop\XMLproject\Xml-Project\bin\Debug\net5.0\Xml-Project.deps.json
 C:\Users\moham\Desktop\XMLproject\Xml-Project\bin\Debug\net5.0\Xml-Project.runtimeconfig.json
@@ -14,3 +15,21 @@ C:\Users\moham\Desktop\XMLproject\Xml-Project\obj\Debug\net5.0\Xml-Project.dll
 C:\Users\moham\Desktop\XMLproject\Xml-Project\obj\Debug\net5.0\ref\Xml-Project.dll
 C:\Users\moham\Desktop\XMLproject\Xml-Project\obj\Debug\net5.0\Xml-Project.pdb
 C:\Users\moham\Desktop\XMLproject\Xml-Project\obj\Debug\net5.0\Xml-Project.genruntimeconfig.cache
+=======
+C:\Users\hiro1\Desktop\Xml-Project\bin\Debug\net5.0\Xml-Project.exe
+C:\Users\hiro1\Desktop\Xml-Project\bin\Debug\net5.0\Xml-Project.deps.json
+C:\Users\hiro1\Desktop\Xml-Project\bin\Debug\net5.0\Xml-Project.runtimeconfig.json
+C:\Users\hiro1\Desktop\Xml-Project\bin\Debug\net5.0\Xml-Project.runtimeconfig.dev.json
+C:\Users\hiro1\Desktop\Xml-Project\bin\Debug\net5.0\Xml-Project.dll
+C:\Users\hiro1\Desktop\Xml-Project\bin\Debug\net5.0\ref\Xml-Project.dll
+C:\Users\hiro1\Desktop\Xml-Project\bin\Debug\net5.0\Xml-Project.pdb
+C:\Users\hiro1\Desktop\Xml-Project\obj\Debug\net5.0\Xml-Project.csproj.AssemblyReference.cache
+C:\Users\hiro1\Desktop\Xml-Project\obj\Debug\net5.0\Xml-Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hiro1\Desktop\Xml-Project\obj\Debug\net5.0\Xml-Project.AssemblyInfoInputs.cache
+C:\Users\hiro1\Desktop\Xml-Project\obj\Debug\net5.0\Xml-Project.AssemblyInfo.cs
+C:\Users\hiro1\Desktop\Xml-Project\obj\Debug\net5.0\Xml-Project.csproj.CoreCompileInputs.cache
+C:\Users\hiro1\Desktop\Xml-Project\obj\Debug\net5.0\Xml-Project.dll
+C:\Users\hiro1\Desktop\Xml-Project\obj\Debug\net5.0\ref\Xml-Project.dll
+C:\Users\hiro1\Desktop\Xml-Project\obj\Debug\net5.0\Xml-Project.pdb
+C:\Users\hiro1\Desktop\Xml-Project\obj\Debug\net5.0\Xml-Project.genruntimeconfig.cache
+>>>>>>> 11788a0 (Read Xml file Function)

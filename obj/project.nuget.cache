@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "jUvU7GUKcJXArUQbVMSjp4spJ8DYNt/80hlzKEhewkQUj20lLUwBzI4ufFUSf6Km7z9e+Vxk/K+41OYPQk50zA==",
   "success": true,
   "projectFilePath": "C:\\Users\\moham\\Desktop\\XMLproject\\Xml-Project\\Xml-Project.csproj",
+=======
+  "dgSpecHash": "tD98kzkJXdQm3Fa2HU+FuFL8pYvSQnCBByWyA9SdrSRIBwPWEHgO3pbW1Qbddz4Ah6N1gT60QWq6cYQE0nOSZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hiro1\\Desktop\\Xml-Project\\Xml-Project.csproj",
+>>>>>>> 11788a0 (Read Xml file Function)
   "expectedPackageFiles": [],
   "logs": []
 }
